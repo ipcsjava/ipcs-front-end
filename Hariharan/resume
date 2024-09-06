@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Resume</title>
+    
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <img src="my_photo_1-removebg-preview.png" alt="my photo">
+    <div class="bottom-right">
+    <div class="font">
+<p id="sign">hariharan</p>
+</div>
+</div>
+</div>
+    <div class="header">
+    <h1>Hariharan</h1>
+    <h2>Contact</h2>
+    <ul style="list-style-type: none;">
+        <li>8300058905</li><br>
+        <li>plot no 90-91 Pon nagar 6th street,thirukkattalai,Pudukkottai-622303</li><br>
+        <li>Mechatronicshariharan@gmail.com</li><br>
+    </ul>
+</div>
+    <hr>
+    <h2>Summary</h2>
+    <p>My performance can be enthusiastic, punctual & career minded individual with excellent communication and interpersonal skills</p>
+    <p>am a quick leaner Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, odit eos aperiam eius laboriosam provident omnis dolores non id ipsa. Quia commodi esse beatae asperiores repudiandae reiciendis soluta vel nulla.</p>
+    <hr>
+    <h2>Education</h2>
+    <ul style="list-style-type: square;">
+        <li> SSLC at <b>S.F.S matric higher secondary school</b> </li>
+        <dd>Marupani road Pudukkottai-622303</dd>
+        <li>HSC at <b>ST Mary’s higher secondary school </b></li>
+        <dd>Alangudi road Pudukkottai-622303</dd>
+        <li>UG at <b> M.A.M school of Engineering </b></li>
+        <dd>Siruganur,chennai trunk road,Trichy-621105</dd>
+    </ul>
+    <hr>
+    <h2>Personal details</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>A.Hariharan</td>
+        </tr>
+        <tr>
+            <th>D.O.B</th>
+            <td>28/07/2003</td>
+        </tr>
+        <tr>
+            <th>Father Name</th>
+            <td>A.Annadurai</td>
+        </tr>
+        <tr>
+            <th>Occupation</th>
+            <td>TNSTC Driver</td>
+        </tr>
+        <tr>
+            <th>Mother Name</th>
+            <td>A.Jayalakshmi</td>
+        </tr>
+        <tr>
+            <th>Occupation</th>
+            <td>Ladies Tailor</td>
+        </tr>
+        <tr>
+            <th>Sister Name</th>
+            <td>A.Harini</td>
+        </tr>
+        <tr>
+            <th>Brother name</th>
+            <td>A.Manoj</td>
+        </tr>
+    </table>
+
+    <hr>
+    <center>
+<ul>
+<li><a id="linear" href="working expernices.html"> Next</a></li>
+
+<li><a id="radial" href="working expernices.html"> Next</a></li>
+
+<li><a  id="conic" href="working expernices.html"> Next</a></li>
+</ul>
+</center>
+</body>
+</html>
