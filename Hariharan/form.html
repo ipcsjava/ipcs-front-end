@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>form</title>
+  <style>
+    fieldset{
+      width: 250px;
+      height:350px ;
+      border-color: aqua;
+    }
+   input{
+    color: red;
+   }
+   label{
+    color: blueviolet;
+   }
+  </style>
+</head>
+<body> <center>
+  <form autocomplete="on">
+   <fieldset>
+    <legend style="color: green;">BIO DATA</legend>
+    
+    <label>Name</label>
+    <input type="text" value="HARIHARAN" readonly><br><br>
+    <label>initial</label>
+    <input type="text" placeholder="Mention Your initial" maxlength="2" minlength="1"required size="3"> <br> <br>
+    <label>Age</label>
+    <input type="number" placeholder="ex. 20" maxlength="3" minlength="1" required > <br><br>
+    <label>Gender</label>
+    <input type="radio" name="gender" required>male <input type="radio" name="gender">female <br><br>
+    <label>Email</label>
+    <input type="email" placeholder="example@gmail.com" required ><br><br>
+    <label>Password</label>
+    <input type="password" pattern=".{6,}">
+    <label >Mobile No</label>
+    <input type="number" placeholder="10-digit number" maxlength="10" minlength="10"required><br><br>
+    <label>College</label>
+    <input type="text" value="M.A.M.school of enginnering" disabled><br><br>
+    <label for="file">input</label>
+    <input type="file">
+    <label for="Department">Department</label>
+
+    <select name="department" id="Department" required>
+      <option value="">select</option>
+    <option value="Mechanical">Mechanical</option>
+    <option value="EEE">EEE</option>
+    <option value="ECE">ECE</option>
+    <option value="CSC">CSC</option>
+    <option value="Mechatronics">Mechatronics</option>
+  </select> <br> <br> <br>
+<input type="submit"> <input type="reset">
+</fieldset>
+  </form>
+</center>
+</body>
+</html>
